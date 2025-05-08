@@ -1,2 +1,2 @@
-# sudoku
-Web app for many uses related to sudoku
+# Sudoku
+Web app for many uses related to the game Sudoku
