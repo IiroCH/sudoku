@@ -1,3 +1,25 @@
 header {
     display: flex;
 }
+
+#game-board {
+    height: 50vh;
+    width: 50vh;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    gap: 1px;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.supercell {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    gap: 1px;
+    background-color: blue;
+}
+
+.cell {
+    background-color: red;
+}
