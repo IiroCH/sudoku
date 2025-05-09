@@ -1,6 +1,13 @@
+/* Header styles */
 header {
     display: flex;
 }
+
+#top-logo {
+    height: 48px;
+    width: 48px;
+}
+/* Header styles */
 
 #game-board {
     height: 50vh;
