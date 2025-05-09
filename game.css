@@ -9,24 +9,33 @@ header {
 }
 /* Header styles */
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #game-board {
     height: 50vh;
     width: 50vh;
     display: grid;
     grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
-    gap: 1px;
-    justify-content: center;
-    align-items: center;
+    gap: 3px;
     background-color: green;
+    padding: 5px;
 }
 
 .supercell {
     display: grid;
     grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
-    gap: 1px;
+    gap: 3px;
     background-color: blue;
+    padding: 5px;
+    box-sizing: border-box;
 }
 
 .cell {
+    text-align: center;
     background-color: red;
+    padding: 5px;
 }

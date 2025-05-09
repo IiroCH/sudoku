@@ -22,7 +22,7 @@ const init = () => {
         for (let j = 0; j < 9; j++) {
             const cell = document.createElement("div");
             cell.classList.add("cell");
-            cell.innerText = "X";
+            cell.innerText = 9 * i + j + 1;
 
             supercell.appendChild(cell);
         }
